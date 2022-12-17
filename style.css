@@ -1,0 +1,21 @@
+.btn{
+    height: 35px;
+    width: 100px;
+    border: 1px solid rgb(5, 51, 86);
+    background-color: rgb(19, 210, 89);
+    border-radius: 8px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 200;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+.btn:hover{
+    color: black;
+    background: rgb(164, 140, 244);
+    font-weight: 200;
+    width: 150px;
+}
+.btn:active{
+    background: red;
+}
